@@ -3209,4 +3209,6 @@ $EndComp
 Wire Wire Line
 	3025 2500 3025 2000
 Connection ~ 2875 2500
+Text Notes 15850 13275 0    60   ~ 0
+FEEDBACK CAP?
 $EndSCHEMATC
