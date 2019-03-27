@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:/Documents/KiCad/820/820.sch)
-    (date "2018-11-11 3:06:43 PM")
+    (date "2019-03-27 12:22:14 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -66,7 +66,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5B412FB1))
     (comp (ref R17)
-      (value 56K)
+      (value 27K)
       (footprint MyModules:SM0603-R-JRL)
       (fields
         (field (name Digikey) P56.0KCCT-ND))
@@ -82,7 +82,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5B412FC1))
     (comp (ref R16)
-      (value 91K)
+      (value 82K)
       (footprint MyModules:SM0603-R-JRL)
       (fields
         (field (name Digikey) P91.0KCCT-ND))
@@ -1136,14 +1136,14 @@
         (pin (num 7) (name ~) (type output))
         (pin (num 8) (name V+) (type power_in)))))
   (libraries
+    (library (logical MySynthParts)
+      (uri E:\Documents\KiCad\MyLibs\MySynthParts.lib))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical transistors)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical MySynthParts)
-      (uri E:\Documents\KiCad\MyLibs\MySynthParts.lib)))
+    (library (logical transistors)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib")))
   (nets
     (net (code 1) (name "Net-(Q1-Pad4)")
       (node (ref R19) (pin 2))
